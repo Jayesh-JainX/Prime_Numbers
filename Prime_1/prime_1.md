@@ -20,3 +20,14 @@ Prime numbers are defined as positive integers greater than 1.
 
 This code is suitable for checking small numbers. For very large numbers, more optimized algorithms, such as the Sieve of Eratosthenes, are recommended.
 
+
+## 📸 Screenshots
+Here are some captivating screenshots from your knapsack adventure:
+
+Output
+
+**Simple Prime Checker**
+
+![Simple Prime Checker](images/p_1.png)
+
+![Simple Prime Checker](images/p_2.png)
