@@ -1,6 +1,6 @@
 # Prime Number Checker Programs 🧐
 
-![Prime Number Checker](images/prime_checker.png)
+![Prime Number Checker](https://github.com/Jayesh-JainX/Prime_Numbers/assets/103871719/725ac276-51f7-457a-b8c7-da474ccec295)
 
 These C++ programs are your tools for unraveling the mysteries of prime numbers. Whether you need to quickly check if a number is prime or delve deeper into prime testing algorithms, this repository has got you covered. 🌟
 
@@ -80,21 +80,21 @@ Output
 
 **Simple Prime Checker**
 
-![Simple Prime Checker](images/p_1.png)
+![Simple Prime Checker](https://github.com/Jayesh-JainX/Prime_Numbers/assets/103871719/d58627b8-00b1-4203-9a35-8d2c45a02ff6)
 
-![Simple Prime Checker](images/p_2.png)
+![Simple Prime Checker](https://github.com/Jayesh-JainX/Prime_Numbers/assets/103871719/6efaf0dd-f651-4d24-8f95-1c9b57f545cc)
 
 **Optimized Prime Checker**
 
-![Optimized Prime Checker](images/p_3.png)
+![Optimized Prime Checker](https://github.com/Jayesh-JainX/Prime_Numbers/assets/103871719/230ea6ac-3fc3-4c08-99b9-d03c637371c0)
 
-![Optimized Prime Checker](images/p_4.png)
+![Optimized Prime Checker](https://github.com/Jayesh-JainX/Prime_Numbers/assets/103871719/edd80364-75ee-4a01-885b-4a69178266d1)
 
-![Optimized Prime Checker](images/p_5.png)
+![Optimized Prime Checker](https://github.com/Jayesh-JainX/Prime_Numbers/assets/103871719/7df2b62b-7440-4ee0-bd37-04c92f301eea)
 
 **Fermat's Little Theorem Primality Test**
 
-![Fermat's Little Theorem Primality Test](images/p_6.png)
+![Fermat's Little Theorem Primality Test](https://github.com/Jayesh-JainX/Prime_Numbers/assets/103871719/4739b78d-e148-4ebe-a0b7-677fc5d9dcd0)
 
 ## 📚 Conclusion
 
