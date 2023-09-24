@@ -28,6 +28,6 @@ Output
 
 **Simple Prime Checker**
 
-![Simple Prime Checker](images/p_1.png)
+![Simple Prime Checker](https://github.com/Jayesh-JainX/Prime_Numbers/assets/103871719/d58627b8-00b1-4203-9a35-8d2c45a02ff6)
 
-![Simple Prime Checker](images/p_2.png)
+![Simple Prime Checker](https://github.com/Jayesh-JainX/Prime_Numbers/assets/103871719/6efaf0dd-f651-4d24-8f95-1c9b57f545cc)
