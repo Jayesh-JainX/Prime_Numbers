@@ -27,8 +27,8 @@ Output
 
 **Optimized Prime Checker**
 
-![Optimized Prime Checker](https://github.com/Jayesh-JainX/Prime_Numbers/assets/103871719/230ea6ac-3fc3-4c08-99b9-d03c637371c0)
+![Optimized Prime Checker](https://github.com/Jayesh-JainX/Prime_Numbers/assets/103871719/1585366d-93a1-433a-a173-137e7031a963)
 
-![Optimized Prime Checker](https://github.com/Jayesh-JainX/Prime_Numbers/assets/103871719/edd80364-75ee-4a01-885b-4a69178266d1)
+![Optimized Prime Checker](https://github.com/Jayesh-JainX/Prime_Numbers/assets/103871719/27887dc9-11b9-41e7-902a-c723819bb91b)
 
-![Optimized Prime Checker](https://github.com/Jayesh-JainX/Prime_Numbers/assets/103871719/7df2b62b-7440-4ee0-bd37-04c92f301eea)
+![Optimized Prime Checker](https://github.com/Jayesh-JainX/Prime_Numbers/assets/103871719/a9248dc9-9b38-4c61-b56b-893bf20ae833)
