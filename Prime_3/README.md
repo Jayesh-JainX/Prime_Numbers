@@ -27,4 +27,4 @@ Here are some screenshots illustrating the functionality of the Fermat's Little 
 
 - **Fermat's Little Theorem Prime Checker**
 
-![Fermat's Little Theorem Primality Test](https://github.com/Jayesh-JainX/Prime_Numbers/assets/103871719/4739b78d-e148-4ebe-a0b7-677fc5d9dcd0)
+![Fermat's Little Theorem Primality Test](https://github.com/Jayesh-JainX/Prime_Numbers/assets/103871719/ddc19175-b99a-4f2e-a5ae-1eb6e68e39fd)
