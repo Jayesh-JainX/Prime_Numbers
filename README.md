@@ -1,7 +1,6 @@
 # Prime Number Checker Programs 🧐
 
-![Prime Number Checker](https://github.com/Jayesh-JainX/Prime_Numbers/assets/103871719/725ac276-51f7-457a-b8c7-da474ccec295)
-
+![Prime Number Checker](https://github.com/Jayesh-JainX/Prime_Numbers/assets/103871719/5ad02ca3-1a06-4ff1-90fa-5ab3d0f9f03e)
 These C++ programs are your tools for unraveling the mysteries of prime numbers. Whether you need to quickly check if a number is prime or delve deeper into prime testing algorithms, this repository has got you covered. 🌟
 ## 🌐 Check Prime Numbers Online
 
@@ -9,7 +8,7 @@ Looking for a quick and easy way to check whether a number is prime or not? You'
 
 ### 🚀 How to Use
 
-1. Visit our [Prime Number Checker](https://your-website.com/prime-checker) page.
+1. Visit our [Prime Number Checker](https://jayesh-jainx.github.io/Prime_Numbers/) page.
 
 2. Enter the number you want to check for primality into the input field.
 
@@ -103,21 +102,26 @@ Output
 
 **Simple Prime Checker**
 
-![Simple Prime Checker](https://github.com/Jayesh-JainX/Prime_Numbers/assets/103871719/d58627b8-00b1-4203-9a35-8d2c45a02ff6)
+<!---![Simple Prime Checker](https://github.com/Jayesh-JainX/Prime_Numbers/assets/103871719/d58627b8-00b1-4203-9a35-8d2c45a02ff6)--->
+![Simple Prime Checker](https://github.com/Jayesh-JainX/Prime_Numbers/assets/103871719/0b4345e1-a2c1-4ab9-955b-54eb8b8a5693)
 
-![Simple Prime Checker](https://github.com/Jayesh-JainX/Prime_Numbers/assets/103871719/6efaf0dd-f651-4d24-8f95-1c9b57f545cc)
+![Simple Prime Checker](https://github.com/Jayesh-JainX/Prime_Numbers/assets/103871719/ebfcae19-ea13-4d21-9e61-10355d23e206)
+<!---![Simple Prime Checker](https://github.com/Jayesh-JainX/Prime_Numbers/assets/103871719/6efaf0dd-f651-4d24-8f95-1c9b57f545cc)--->
 
 **Optimized Prime Checker**
 
-![Optimized Prime Checker](https://github.com/Jayesh-JainX/Prime_Numbers/assets/103871719/230ea6ac-3fc3-4c08-99b9-d03c637371c0)
+<!---![Optimized Prime Checker](https://github.com/Jayesh-JainX/Prime_Numbers/assets/103871719/230ea6ac-3fc3-4c08-99b9-d03c637371c0)--->
+<!---![Optimized Prime Checker](https://github.com/Jayesh-JainX/Prime_Numbers/assets/103871719/edd80364-75ee-4a01-885b-4a69178266d1)--->
+![Optimized Prime Checker](https://github.com/Jayesh-JainX/Prime_Numbers/assets/103871719/9ef222a5-5e30-46ba-b02e-f8f8a0a15109)
+![Optimized Prime Checker](https://github.com/Jayesh-JainX/Prime_Numbers/assets/103871719/4779b7d8-51d1-4e00-9bb0-9d5d31c90c5a)
+![Optimized Prime Checker](https://github.com/Jayesh-JainX/Prime_Numbers/assets/103871719/2aac176d-9ce2-4990-a58f-9a393b773e65)
 
-![Optimized Prime Checker](https://github.com/Jayesh-JainX/Prime_Numbers/assets/103871719/edd80364-75ee-4a01-885b-4a69178266d1)
-
-![Optimized Prime Checker](https://github.com/Jayesh-JainX/Prime_Numbers/assets/103871719/7df2b62b-7440-4ee0-bd37-04c92f301eea)
+<!---![Optimized Prime Checker](https://github.com/Jayesh-JainX/Prime_Numbers/assets/103871719/7df2b62b-7440-4ee0-bd37-04c92f301eea)--->
 
 **Fermat's Little Theorem Primality Test**
 
-![Fermat's Little Theorem Primality Test](https://github.com/Jayesh-JainX/Prime_Numbers/assets/103871719/4739b78d-e148-4ebe-a0b7-677fc5d9dcd0)
+<!---![Fermat's Little Theorem Primality Test](https://github.com/Jayesh-JainX/Prime_Numbers/assets/103871719/4739b78d-e148-4ebe-a0b7-677fc5d9dcd0)--->
+![Fermat's Little Theorem Primality Test](https://github.com/Jayesh-JainX/Prime_Numbers/assets/103871719/274e2067-7f70-49ee-8a7a-9fe51da97766)
 
 ## 📚 Conclusion
 
