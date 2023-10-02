@@ -28,6 +28,5 @@ Output
 
 **Simple Prime Checker**
 
-![Simple Prime Checker](https://github.com/Jayesh-JainX/Prime_Numbers/assets/103871719/d58627b8-00b1-4203-9a35-8d2c45a02ff6)
-
-![Simple Prime Checker](https://github.com/Jayesh-JainX/Prime_Numbers/assets/103871719/6efaf0dd-f651-4d24-8f95-1c9b57f545cc)
+![Simple Prime Checker](https://github.com/Jayesh-JainX/Prime_Numbers/assets/103871719/99e22c95-9038-46b6-a5c8-9f48d4c9639e)
+![Simple Prime Checker](https://github.com/Jayesh-JainX/Prime_Numbers/assets/103871719/5bad4f8f-44ca-41fd-8542-f2f59196dec6)
