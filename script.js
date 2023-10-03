@@ -54,21 +54,10 @@ window.addEventListener('load', () => {
         const resultCell = document.createElement('td');
 
         numberCell.textContent = item.number;
-        resultCell.textContent = '';
-
-        const tooltipContainer = document.createElement('span');
-        tooltipContainer.className = 'tooltip';
-        const tooltipText = document.createElement('span');
-        tooltipText.className = 'tooltiptext';
-        tooltipText.textContent = item.number;
-
-        tooltipContainer.appendChild(resultCell);
-        tooltipContainer.appendChild(tooltipText);
-        numberCell.appendChild(tooltipContainer);
+        resultCell.textContent = item.isPrime;
 
         row.appendChild(numberCell);
         row.appendChild(resultCell);
         historyBody.appendChild(row);
     });
 });
-
