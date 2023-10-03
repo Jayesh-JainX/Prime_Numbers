@@ -60,6 +60,28 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 10px;
+    table-layout: fixed; 
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    white-space: nowrap; 
+    overflow: hidden;
+}
+
+td {
+    max-width: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+}
+
+p#result {
+    font-size: 18px;
+    color: green;
+    margin-top: 10px;
+    overflow-wrap: break-word; 
+    word-wrap: break-word; 
 }
 
 table, th, td {
@@ -86,3 +108,4 @@ footer {
     opacity: 0.5;
     padding: 10px 0;
 }
+
