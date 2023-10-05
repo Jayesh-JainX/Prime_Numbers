@@ -11,6 +11,16 @@ function isPrime(num) {
     return true;
 }
 
+function clearHistory() {
+    localStorage.removeItem('searchHistory');
+    const historyBody = document.getElementById('historyBody');
+    historyBody.innerHTML = '';
+}
+
+const clearHistoryButton = document.getElementById('clearHistoryButton');
+clearHistoryButton.addEventListener('click', clearHistory);
+
+
 function checkPrime() {
     const numberInput = document.getElementById('numberInput').value;
     const resultElement = document.getElementById('result');
@@ -24,7 +34,7 @@ function checkPrime() {
 
     resultElement.textContent = `${numberInput} is ${isPrimeResult}`;
 
-    
+
     const searchHistory = JSON.parse(localStorage.getItem('searchHistory')) || [];
     searchHistory.push({ number: numberInput, isPrime: isPrimeResult });
     localStorage.setItem('searchHistory', JSON.stringify(searchHistory));
