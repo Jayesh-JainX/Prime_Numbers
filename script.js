@@ -27,10 +27,15 @@ function checkPrime() {
     const historyTable = document.getElementById('historyTable');
     const historyBody = document.getElementById('historyBody');
 
+    if (numberInput === '') {
+        return;
+    }
+
     let isPrimeResult = 'Not Prime';
     if (isPrime(numberInput)) {
         isPrimeResult = 'Prime';
     }
+
 
     resultElement.textContent = `${numberInput} is ${isPrimeResult}`;
 
