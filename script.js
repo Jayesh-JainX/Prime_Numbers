@@ -20,30 +20,42 @@ function clearHistory() {
 const clearHistoryButton = document.getElementById('clearHistoryButton');
 clearHistoryButton.addEventListener('click', clearHistory);
 
-
 function checkPrime() {
     const numberInput = document.getElementById('numberInput').value;
     const resultElement = document.getElementById('result');
     const historyTable = document.getElementById('historyTable');
     const historyBody = document.getElementById('historyBody');
 
-    if (numberInput === '') {
+    // Input validation
+    if (numberInput === '' || isNaN(numberInput)) {
+        resultElement.textContent = 'Please enter a Valid Number';
+        return;
+    }
+
+    // Check for a large number input
+    if (BigInt(numberInput) >= 10n**308n) {
+        resultElement.textContent = 'Maximum Limit Reached';
         return;
     }
 
     let isPrimeResult = 'Not Prime';
-    if (isPrime(numberInput)) {
+    if (isPrime(Number(numberInput))) {
         isPrimeResult = 'Prime';
     }
 
-
     resultElement.textContent = `${numberInput} is ${isPrimeResult}`;
-
 
     const searchHistory = JSON.parse(localStorage.getItem('searchHistory')) || [];
     searchHistory.push({ number: numberInput, isPrime: isPrimeResult });
+
+    // Limit displayed history entries (e.g., to the last 10)
+    if (searchHistory.length > 10) {
+        searchHistory.shift();
+    }
+
     localStorage.setItem('searchHistory', JSON.stringify(searchHistory));
 
+    // Update displayed history
     historyBody.innerHTML = '';
     searchHistory.forEach((item) => {
         const row = document.createElement('tr');
@@ -63,7 +75,9 @@ window.addEventListener('load', () => {
     const historyBody = document.getElementById('historyBody');
     const searchHistory = JSON.parse(localStorage.getItem('searchHistory')) || [];
 
-    searchHistory.forEach((item) => {
+    // Display a limited number of history entries
+    const displayedHistory = searchHistory.slice(-10); // Display the last 10 entries
+    displayedHistory.forEach((item) => {
         const row = document.createElement('tr');
         const numberCell = document.createElement('td');
         const resultCell = document.createElement('td');
