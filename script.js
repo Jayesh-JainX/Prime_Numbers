@@ -14,11 +14,27 @@ function isPrime(num) {
 function clearHistory() {
     localStorage.removeItem('searchHistory');
     const historyBody = document.getElementById('historyBody');
+    const message = document.getElementById('message');
     historyBody.innerHTML = '';
+    let isMessageVisible = false;
+    if (!isMessageVisible) {
+        message.style.animation = 'none';
+        void message.offsetWidth;
+        message.style.animation = null;
+        message.style.display = 'block';
+        isMessageVisible = true;
+
+        setTimeout(() => {
+            message.style.display = 'none';
+            isMessageVisible = false;
+        }, 3000);
+    }
 }
 
 const clearHistoryButton = document.getElementById('clearHistoryButton');
 clearHistoryButton.addEventListener('click', clearHistory);
+
+
 
 function checkPrime() {
     const numberInput = document.getElementById('numberInput').value;
@@ -26,14 +42,12 @@ function checkPrime() {
     const historyTable = document.getElementById('historyTable');
     const historyBody = document.getElementById('historyBody');
 
-    // Input validation
     if (numberInput === '' || isNaN(numberInput)) {
         resultElement.textContent = 'Please enter a Valid Number';
         return;
     }
 
-    // Check for a large number input
-    if (BigInt(numberInput) >= 10n**308n) {
+    if (BigInt(numberInput) >= 10n ** 308n) {
         resultElement.textContent = 'Maximum Limit Reached';
         return;
     }
@@ -48,14 +62,12 @@ function checkPrime() {
     const searchHistory = JSON.parse(localStorage.getItem('searchHistory')) || [];
     searchHistory.push({ number: numberInput, isPrime: isPrimeResult });
 
-    // Limit displayed history entries (e.g., to the last 10)
     if (searchHistory.length > 10) {
         searchHistory.shift();
     }
 
     localStorage.setItem('searchHistory', JSON.stringify(searchHistory));
 
-    // Update displayed history
     historyBody.innerHTML = '';
     searchHistory.forEach((item) => {
         const row = document.createElement('tr');
@@ -75,8 +87,7 @@ window.addEventListener('load', () => {
     const historyBody = document.getElementById('historyBody');
     const searchHistory = JSON.parse(localStorage.getItem('searchHistory')) || [];
 
-    // Display a limited number of history entries
-    const displayedHistory = searchHistory.slice(-10); // Display the last 10 entries
+    const displayedHistory = searchHistory.slice(-100);
     displayedHistory.forEach((item) => {
         const row = document.createElement('tr');
         const numberCell = document.createElement('td');
