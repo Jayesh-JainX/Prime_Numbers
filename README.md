@@ -8,7 +8,7 @@ Looking for a quick and easy way to check whether a number is prime or not? You'
 
 ### 🚀 How to Use
 
-1. Visit our [Prime Number Checker](https://jayesh-jainx.github.io/Prime_Numbers/) page.
+1. Visit our [Prime Number Checker](https://jayeshjainx.pythonanywhere.com/) page.
 
 2. Enter the number you want to check for primality into the input field.
 
