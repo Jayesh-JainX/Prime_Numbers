@@ -22,25 +22,26 @@ function checkPrime() {
     const resultElement = document.getElementById('result');
     const historyTable = document.getElementById('historyTable');
     const historyBody = document.getElementById('historyBody');
+    const numberPattern = /^\d+$/;
 
     if (numberInput === '') {
         resultElement.textContent = 'Please Enter a Valid Number';
         return;
     }
 
-    if (BigInt(numberInput) >= 10n ** 1000n) {
-        resultElement.textContent = 'Maximum Limit Reached';
+    if (!numberPattern.test(numberInput)) {
+        resultElement.textContent = 'Invalid Input - It contains Non-Numeric Characters.';
         return;
     }
-    
+
+
+    if (BigInt(numberInput) >= 10n ** 1000n) {
+        resultElement.textContent = 'Maximum Limit Reached (1000 digits)';
+        return;
+    }
 
     try {
         const numBigInt = BigInt(numberInput);
-
-        if (numBigInt.toString().length > 1000) {
-            resultElement.textContent = 'Maximum Limit Reached (1000 digits)';
-            return;
-        }
 
         fetch('/check_prime', {
             method: 'POST',
@@ -79,6 +80,7 @@ function checkPrime() {
             })
             .catch(error => {
                 console.error('Error:', error);
+                resultElement.textContent = 'Error checking the number. Please try again.';
             });
     } catch (error) {
         resultElement.textContent = 'Please Enter a Valid Number';
