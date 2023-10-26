@@ -71,6 +71,7 @@ button#clearHistoryButton {
     cursor: pointer;
 }
 
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -82,8 +83,10 @@ th,
 td {
     padding: 10px;
     text-align: center;
-    white-space: nowrap;
+    white-space: normal;
+    word-wrap: break-word;
     overflow: hidden;
+    text-overflow: clip;
 }
 
 td {
@@ -131,9 +134,18 @@ tr:hover {
 }
 
 @keyframes fadeOut {
-    0% { opacity: 1; }
-    90% { opacity: 1; }
-    100% { opacity: 0; display: none; }
+    0% {
+        opacity: 1;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        display: none;
+    }
 }
 
 footer {
@@ -145,4 +157,25 @@ footer {
     color: #fff;
     opacity: 0.5;
     padding: 10px 0;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-in-out;
+}
+
+.button:hover {
+    background-color: #333;
+    color: #fff;
+    transform: scale(1.1);
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
 }
